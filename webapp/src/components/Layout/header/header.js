@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 
 // Redux
 import {connect} from 'react-redux';
-import {ChangePath} from '../../Redux/actions/app';
+import {ChangePath,SwitchLogIn,SwitchSignIn} from '../../Redux/actions/app';
 // Material UI
 import Grid from '@material-ui/core/Grid';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -21,7 +21,12 @@ const Logo = () =>{
 }
 
 const Header = (props) =>{
-    const {ChangePath,app} = props;
+    const {
+        ChangePath,
+        app,
+        SwitchLogIn,
+        SwitchSignIn
+    } = props;
     let history = useHistory();
 
     useEffect(()=>{
@@ -58,8 +63,8 @@ const Header = (props) =>{
                 </ul>
                 </div>
                 <div>
-                <ButtonBasic label='SignIn'/>
-                <ButtonBasic label='LogIn'/>
+                <ButtonBasic label='SignIn' action={SwitchSignIn}/>
+                <ButtonBasic label='LogIn' action={SwitchLogIn}/>
                 </div>
             </div>
             {
@@ -77,5 +82,7 @@ const mapStateToProps = state =>({
 
 
 export default connect(mapStateToProps,{
-    ChangePath
+    ChangePath,
+    SwitchLogIn,
+    SwitchSignIn
 })(Header);

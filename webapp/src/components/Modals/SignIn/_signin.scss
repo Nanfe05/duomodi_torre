@@ -1,0 +1,21 @@
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_holder{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    font-size: 20px;
+    &>h2{
+        text-align: center;
+        margin: 10px 0;
+        font-family: ubuntu-b;
+    }
+    &>form>.MuiFormControl-root{
+        width: 100%;
+        margin: 15px 0;
+    }
+}
