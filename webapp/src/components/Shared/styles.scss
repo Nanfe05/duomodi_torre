@@ -9,3 +9,12 @@
 // Layout 
 @import '../Layout/footer/footer';
 @import '../Layout/header/header';
+
+// Components
+// Macro 
+@import './mainComponent';
+@import '../Macro/Home/home';
+@import '../Macro/Team/team';
+@import '../Macro/Contact/contact';
+// Micro 
+@import '../Micro/Buttons/buttons';

@@ -1,0 +1,1 @@
+export const CHANGE_APP_PATH = 'CHANGE_APP_PATH';
