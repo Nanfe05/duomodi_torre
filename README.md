@@ -45,3 +45,13 @@ Brain Storm Process:
 
 ![BrainStorming](/BrainStorming.jpeg)
 
+Previews:
+
+![Home Page](/preview_images/Home.PNG)
+![Team Page](/preview_images/Team.PNG)
+![Contact Page](/preview_images/Contact.PNG)
+![Skills from Torre](/preview_images/searchskillsfromtorre.PNG)
+![Opportunities Page](/preview_images/opportunities.PNG)
+![Sign In Page](/preview_images/signinwithserver.PNG)
+![Login](/preview_images/loginwith server.PNG)
+
