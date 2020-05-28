@@ -44,4 +44,4 @@ https://search.torre.co/opportunities/_search/?offset=5&size=1&aggregate=true
 Brain Storm Process: 
 
 ![BrainStorming](/BrainStorming.jpeg)
-Format: ![BrainStorming](https://github.com/Nanfe05/duomodi_torre/blob/master/BrainStorming.jpeg)
+
