@@ -16,11 +16,15 @@ import Home from '../Macro/Home/home';
 import Team from '../Macro/Team/team';
 import Contact from '../Macro/Contact/contact';
 import Opportunities from '../Macro/Opportunities/opportunities';
+import SigIn from '../Modals/SignIn/signin';
+import LogIn from '../Modals/Login/login';
 
 const MainComponent = () =>{
     return(<div>
     <Provider store={store}>
         <BrowserRouter>
+            <SigIn/>
+            <LogIn/>
             <Header/>
             <div className='dm_contents'>
                 <Switch>
