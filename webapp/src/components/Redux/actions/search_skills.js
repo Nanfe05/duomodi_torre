@@ -18,3 +18,7 @@ export const AddMySkill = (payload) =>({
     type:actionTypes.MYSKILL_ADD,
     payload:payload
 });
+
+export const SearchSkillsClearAll = () =>({
+    type:actionTypes.SEARCH_SKILLS_CLEAR_ALL
+});

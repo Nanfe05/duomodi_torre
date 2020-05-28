@@ -62,7 +62,10 @@ const Header = (props) =>{
                 <ButtonBasic label='LogIn'/>
                 </div>
             </div>
-            <LinearProgress style={{width:'100%'}}/>
+            {
+                app.loading && <LinearProgress style={{width:'100%'}}/>
+            }
+            
         </Grid>
     </Grid>)
 }

@@ -15,6 +15,7 @@ import Footer from '../Layout/footer/footer';
 import Home from '../Macro/Home/home';
 import Team from '../Macro/Team/team';
 import Contact from '../Macro/Contact/contact';
+import Opportunities from '../Macro/Opportunities/opportunities';
 
 const MainComponent = () =>{
     return(<div>
@@ -23,6 +24,7 @@ const MainComponent = () =>{
             <Header/>
             <div className='dm_contents'>
                 <Switch>
+                          <Route path='/technicaltests' component={Opportunities}/>
                           <Route  path='/team' component={Team}/>
                           <Route  path='/contact' component={Contact}/>
                           <Route  path='/' component={Home}/>

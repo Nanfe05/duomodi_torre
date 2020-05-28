@@ -7,4 +7,11 @@ module.exports = function(app) {
       changeOrigin: true,
     })
   );
+  app.use(
+    '/opportunities',
+    createProxyMiddleware({
+      target: 'https://search.torre.co/',
+      changeOrigin: true,
+    })
+  );
 };

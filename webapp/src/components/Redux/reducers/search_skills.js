@@ -8,6 +8,12 @@ const initialState={
 
 export default function (state= initialState, action){
     switch(action.type){
+        case actionTypes.SEARCH_SKILLS_CLEAR_ALL:
+            return{
+                searchbar:'',
+                skills:[],
+                mySkills:[]
+            }
         case actionTypes.MYSKILL_ADD:
             return {
                 ...state,
