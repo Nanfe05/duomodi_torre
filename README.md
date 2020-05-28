@@ -60,5 +60,5 @@ Ask for Opportunities that match the preview skills
 Sign In and validation with server (Json Web Tokens)
 ![Sign In Page](/preview_images/signinwithserver.PNG)
 Log In and validation with server (Json Web Tokens)
-![Login](/preview_images/loginwitserver.PNG)
+![Login](/preview_images/loginwithserver.PNG)
 
