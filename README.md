@@ -55,7 +55,7 @@ Contact Page
 ![Contact Page](/preview_images/Contact.PNG)
 Ask Skills from Torre
 ![Skills from Torre](/preview_images/searchskillsfromtorre.PNG)
-Ask for Opportunities that match the preview skills
+Ask for Opportunities that match the preview skills from Torre
 ![Opportunities Page](/preview_images/opportunities.PNG)
 Sign In and validation with server (Json Web Tokens)
 ![Sign In Page](/preview_images/signinwithserver.PNG)
