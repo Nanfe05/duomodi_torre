@@ -30,7 +30,14 @@ Getting a job or consolidating a company while developing new challenges are pos
 6. If the offer meets the expectations of the company, there is the possibility of working in partner with the company.
 
 
+END POINTS USED :
 
+to get list of skills from Torre: 
 
+https://torre.co/api/strengths?limit=10&q=s&context=add-opportunity&locale=en
+
+to get the opportunities: 
+
+https://search.torre.co/opportunities/_search/?offset=5&size=1&aggregate=true
 
 
