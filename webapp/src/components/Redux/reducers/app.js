@@ -5,6 +5,8 @@ const initialState={
     loading:false,
     signin:false,
     login:false,
+    alerts:[],
+    alert:false,
     login_form:{
         email:'',
         pass:''
@@ -17,6 +19,16 @@ const initialState={
 
 export default function (state= initialState, action){
     switch(action.type){
+        case actionTypes.ADD_ALERTS:
+            return{
+                ...state,
+                alerts:action.payload
+            }
+        case actionTypes.SWITCH_ALERTS:
+            return{
+                ...state,
+                alert:!state.alert
+            }
         case actionTypes.SIGNIN_FORM_PASS:
             return{
                 ...state,

@@ -5,9 +5,9 @@ const Team = () =>{
         <div className='team_holder'>
             <h2>Team</h2>
             <div className='row'>
-                <div className='image_profile'></div>
+                <div className='image_profile' style={{backgroundImage:`url(${'/assets/images/hf.png'})`}}></div>
                 <div className='description'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Entrepreneur and innovative by nature. He has experience in programming, parametric design, and the skills to conceptualize and develop a project cross-cuttingly, from the BackEnd to the FrontEnd. He bets on constant learning, creation and optimization processes, and the exploration of various alternatives from programming to solve needs of different scales, such as daily activities or the creation of platforms that allow to connect various professions and skills to generate results of greater impact.
                 </div>
                 <a href='https://bio.torre.co/es/hernanfelipelondononorojas' target="_blank" rel="noopener noreferrer">
                     <img src={`/assets/images/torre.png`} alt='torre_logo'/>

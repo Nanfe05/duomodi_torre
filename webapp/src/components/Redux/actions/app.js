@@ -35,3 +35,12 @@ export const SignInFormPass = (payload)=>({
     type:actionTypes.SIGNIN_FORM_PASS,
     payload:payload
 });
+
+export const SwitchAlert = () =>({
+    type: actionTypes.SWITCH_ALERTS
+})
+
+export const AddAlerts = (payload) =>({
+    type: actionTypes.ADD_ALERTS,
+    payload:payload
+})
