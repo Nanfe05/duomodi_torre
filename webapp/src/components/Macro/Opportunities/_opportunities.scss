@@ -1,0 +1,55 @@
+.opportunities_holder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &>h2{
+        font-family: ubuntu-b;
+        font-size: 30px;
+        color: $color_text_2;
+    }
+    &>.goBack{
+        margin: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &>.opportunities_list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+            &>.opportunity_holder{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 20px 0;
+                background-color: $color_6;
+                border-radius: 20px;
+                height: 70px;
+                width: 400px;;
+                &>h2{
+                    font-family: ubuntu-b;
+                    font-size: 18px;
+                    color: $color_text_2;
+                    margin: 10px 0;
+                }
+                &>h3{
+                    font-family: ubuntu;
+                    font-size: 14px;
+                    color: $color_text_2;
+                }
+                &>p{
+                    font-family: ubuntu-l;
+                    font-size: 12px;
+                    color: $color_text_2;
+                }
+            }
+    }
+}

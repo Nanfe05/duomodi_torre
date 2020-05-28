@@ -1,0 +1,13 @@
+.app_name{
+    font-family: logo;
+    color: $color_1;
+}
+.footer{
+    color: $color_2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: ubuntu;
+    min-height: 8vh;
+    background-color: $background_gray_1;
+}

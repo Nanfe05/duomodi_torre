@@ -1,0 +1,10 @@
+.MuiButtonBase-root.dm_basic{
+    background-image: linear-gradient(to bottom right,$color_2,$color_1);
+    color: $color_text_2;
+    font-family: ubuntu-b;
+    min-width: 100px;
+    margin: 0 5px;
+    &.wide{
+        width: 100%;
+    }
+}

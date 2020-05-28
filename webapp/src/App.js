@@ -1,11 +1,12 @@
 import React from 'react';
 
+// Main Component
+import MainComponent from './components/Shared/mainComponent.js';
+
 function App() {
   return (
     <div className="App">
-      <div>
-        DuoMondi
-      </div>
+      <MainComponent/>
     </div>
   );
 }

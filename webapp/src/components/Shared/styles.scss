@@ -1,0 +1,24 @@
+// Style Reset
+@import './styles/reset';
+// Common Settings
+@import './styles/common';
+// Fonts
+@import './styles/fonts';
+// Colors
+@import './styles/colors';
+// Layout 
+@import '../Layout/footer/footer';
+@import '../Layout/header/header';
+
+// Components
+// Macro 
+@import './mainComponent';
+@import '../Macro/Home/home';
+@import '../Macro/Team/team';
+@import '../Macro/Contact/contact';
+@import '../Macro/Opportunities/opportunities';
+// Meso 
+@import '../Meso/SearchOportunity/searchOpportunity';
+// Micro 
+@import '../Micro/Buttons/buttons';
+@import '../Micro/pills/skills/skill';
