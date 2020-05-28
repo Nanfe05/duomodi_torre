@@ -47,11 +47,18 @@ Brain Storm Process:
 
 Previews:
 
+Home Page
 ![Home Page](/preview_images/Home.PNG)
+Team Page
 ![Team Page](/preview_images/Team.PNG)
+Contact Page
 ![Contact Page](/preview_images/Contact.PNG)
+Ask Skills from Torre
 ![Skills from Torre](/preview_images/searchskillsfromtorre.PNG)
+Ask for Opportunities that match the preview skills
 ![Opportunities Page](/preview_images/opportunities.PNG)
+Sign In and validation with server (Json Web Tokens)
 ![Sign In Page](/preview_images/signinwithserver.PNG)
-![Login](/preview_images/loginwith server.PNG)
+Log In and validation with server (Json Web Tokens)
+![Login](/preview_images/loginwitserver.PNG)
 
