@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 import {ChangePath} from '../../Redux/actions/app';
 // Material UI
 import Grid from '@material-ui/core/Grid';
-
+import LinearProgress from '@material-ui/core/LinearProgress';
 // React Router 
 import {useHistory} from 'react-router-dom';
 
@@ -32,35 +32,37 @@ const Header = (props) =>{
     },[]);
 
     return(<Grid container>
-        <Grid item xs={12 } className='header'>
-            <div>
-            <Logo/>
-            <ul className='navbar'>
-                <li className={app.path === '/' ? 'selected':''} onClick={()=>{
-                    history.push('/');
-                    ChangePath('/');
-                }}>
-                    Home
-                </li>
-                <li className={app.path === '/team' ? 'selected':''} onClick={()=>{
-                    history.push('/team');
-                    ChangePath('/team');
-                }}>
-                    Team
-                </li>
-                <li className={app.path === '/contact' ? 'selected':''} onClick={()=>{
-                    history.push('/contact');
-                    ChangePath('/contact');
-                }}>
-                    Contact
-                </li>
-            </ul>
+        <Grid item xs={12 } className='header_holder'>
+            <div className='header'>
+                <div>
+                <Logo/>
+                <ul className='navbar'>
+                    <li className={app.path === '/' ? 'selected':''} onClick={()=>{
+                        history.push('/');
+                        ChangePath('/');
+                    }}>
+                        Home
+                    </li>
+                    <li className={app.path === '/team' ? 'selected':''} onClick={()=>{
+                        history.push('/team');
+                        ChangePath('/team');
+                    }}>
+                        Team
+                    </li>
+                    <li className={app.path === '/contact' ? 'selected':''} onClick={()=>{
+                        history.push('/contact');
+                        ChangePath('/contact');
+                    }}>
+                        Contact
+                    </li>
+                </ul>
+                </div>
+                <div>
+                <ButtonBasic label='SignIn'/>
+                <ButtonBasic label='LogIn'/>
+                </div>
             </div>
-            <div>
-            <ButtonBasic label='SignIn'/>
-            <ButtonBasic label='LogIn'/>
-            </div>
-
+            <LinearProgress style={{width:'100%'}}/>
         </Grid>
     </Grid>)
 }

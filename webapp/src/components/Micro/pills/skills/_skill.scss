@@ -1,0 +1,29 @@
+.skill_pill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right,$color_2,$color_1);
+    border-radius: 50px;
+    font-family: ubuntu-b;
+    color: white;
+    cursor: pointer;
+}
+.my_skill_pill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right,$color_2,$color_1);
+    border-radius: 50px;
+    font-family: ubuntu-b;
+    color: white;
+    cursor: pointer;
+    &>svg{
+        margin-left: 5px;
+    }
+}

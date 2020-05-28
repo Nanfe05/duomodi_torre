@@ -4,9 +4,9 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 
 export const ButtonBasic = (props) =>{
-    const {label} = props;
+    const {label,classes,action} = props;
     return(
-        <Button className='dm_basic'>
+        <Button className={`dm_basic ${classes}`} onClick={action}>
             {label}
         </Button>
     );
